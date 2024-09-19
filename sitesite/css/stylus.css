@@ -1,0 +1,28 @@
+@font-face {
+    font-family: '8bitOperatorPlus';
+    src: url('/fontes/8bitOperatorPlus-Bold.ttf') format('truetype'),
+         url('/fontes/8bitOperatorPlus-Bold.woff') format('woff'),
+         url('/fontes/8bitOperatorPlus-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'maniac';
+    src: url('/fontes/maniac.ttf') format('truetype'),
+         url('/fontes/maniac-webfont.woff') format('woff'),
+         url('/fontes/maniac-webfont.woff2') format('woff2');
+}
+
+body{
+    background-image: url("/midia/bg.png");
+}
+
+#marcio{
+    background-color: black;
+}
+
+h1{
+    font-family: maniac;
+    font-size: 75px;
+    color: white;
+    text-align: center;
+}
